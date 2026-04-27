@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cortex-cli"
+version = "0.1.0"
+description = "Cortex — knowledge graph CLI on markdown files"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "networkx>=3.0",
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+cortex = "cortex.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cortex"]

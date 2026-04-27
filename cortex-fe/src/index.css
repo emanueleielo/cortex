@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cortex palette — keep stable across the project */
+  --color-cream: #FAF6ED;
+  --color-ochre: #C9A363;
+  --color-mint: #A8C4B0;
+  --color-dust: #B8CAD6;
+  --color-ink: #1F1F1F;
+  --color-ink-soft: #2A2A2A;
+
+  /* Type system: serif for editorial labels, hand for callouts, sans for UI chrome */
+  --font-serif: 'EB Garamond', 'Cormorant Garamond', Georgia, serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Inter', sans-serif;
+  --font-hand: 'Caveat', 'Kalam', 'Patrick Hand', cursive;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,3263 @@
+{
+  "scenes": [
+    {
+      "id": "z-workshop",
+      "parentId": null,
+      "title": "Grandfather's Workshop",
+      "description": "The cedar-scented refuge where mechanical curiosity began.",
+      "text": "A long stone shed behind the family house. Nonno's afternoons. The radio always on a jazz station, pine shavings curling at his feet, Rocco asleep on a rag rug. Every tool had a place; he could find any of them in the dark.",
+      "position": {
+        "x": 0.1,
+        "y": 0.3
+      },
+      "color": "mint",
+      "domain": "personal",
+      "createdAt": "2008-04-12",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "family",
+        "craft",
+        "memory-anchor",
+        "music"
+      ],
+      "people": [
+        "Nonno"
+      ],
+      "hotspots": [
+        {
+          "id": "h-wks-bench",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-wks-bench"
+        },
+        {
+          "id": "h-wks-vise",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-wks-vise"
+        },
+        {
+          "id": "h-wks-window",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-wks-window"
+        },
+        {
+          "id": "h-wks-dog",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-wks-dog"
+        },
+        {
+          "id": "h-wks-radio",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-wks-radio"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-childhood",
+          "kind": "recalls",
+          "label": "where mechanical love started"
+        },
+        {
+          "sceneId": "z-kitchen",
+          "kind": "shared-with",
+          "label": "same house"
+        }
+      ]
+    },
+    {
+      "id": "s-wks-bench",
+      "parentId": "z-workshop",
+      "title": "Workbench",
+      "description": "The long oak workbench scarred by decades of clamps and saws.",
+      "text": "The smell of cedar shavings comes back instantly when I think of it. Nonno would set me up on a stool beside him with a wooden block to whittle while he worked.",
+      "tags": [
+        "family",
+        "craft",
+        "memory-anchor"
+      ],
+      "people": [
+        "Nonno"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2008-04-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-wks-vise",
+      "parentId": "z-workshop",
+      "title": "Iron vise",
+      "description": "The brass-handled vise that needed both hands to turn.",
+      "text": "I remember the weight of the screw and the smell of the iron. Nonno taught me to never crank past resistance — 'the wood will tell you when'.",
+      "tags": [
+        "craft",
+        "tool"
+      ],
+      "people": [
+        "Nonno"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2008-04-12",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-bed-robot",
+          "kind": "recalls",
+          "label": "first machine love"
+        }
+      ]
+    },
+    {
+      "id": "s-wks-window",
+      "parentId": "z-workshop",
+      "title": "Dusty window",
+      "description": "Afternoon light slanting through dust motes. Pine trees outside.",
+      "text": "The sun would hit the bench at 3pm in summer. The dust would dance and Nonno would say 'guarda, polvere d'oro'.",
+      "tags": [
+        "nature",
+        "light"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2008-04-12",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-kit-window",
+          "kind": "shared-with",
+          "label": "same house, same light"
+        }
+      ]
+    },
+    {
+      "id": "s-wks-dog",
+      "parentId": "z-workshop",
+      "title": "Sleeping dog",
+      "description": "Rocco curled on the rag rug.",
+      "text": "His ears would twitch at every saw stroke but he never moved. Brown and white border collie mix. Lived to 16.",
+      "tags": [
+        "family",
+        "animal"
+      ],
+      "people": [
+        "Nonno"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2008-04-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-wks-radio",
+      "parentId": "z-workshop",
+      "title": "Bakelite radio",
+      "description": "Always tuned to a jazz station. Coltrane on Tuesdays.",
+      "text": "An old brown plastic radio with a cloth speaker grille. Nonno would tune it carefully and then refuse to touch the dial for weeks. The first time I heard 'Naima' was on this radio, on his lap, in this workshop.",
+      "tags": [
+        "music",
+        "memory-anchor"
+      ],
+      "people": [
+        "Nonno"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2008-04-12",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "z-concert",
+          "kind": "follows",
+          "label": "the seed of music"
+        }
+      ]
+    },
+    {
+      "id": "z-childhood",
+      "parentId": null,
+      "title": "Childhood Bedroom",
+      "description": "The quilt, the desk, the wall of crayon battles.",
+      "text": "The first room I called mine. Pine bunk-bed (I always took the top), a desk under the window, books that I rotated in piles depending on what I was obsessing over. Mamma would come in to read at night.",
+      "position": {
+        "x": 0.3190371398729602,
+        "y": 0.5199745090598488
+      },
+      "color": "dust",
+      "domain": "personal",
+      "createdAt": "2002-09-03",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "family",
+        "comfort",
+        "learning",
+        "story"
+      ],
+      "people": [
+        "Mamma",
+        "Nonna"
+      ],
+      "hotspots": [
+        {
+          "id": "h-bed-bed",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-bed-bed"
+        },
+        {
+          "id": "h-bed-desk",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-bed-desk"
+        },
+        {
+          "id": "h-bed-robot",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-bed-robot"
+        },
+        {
+          "id": "h-bed-shelf",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-bed-shelf"
+        },
+        {
+          "id": "h-bed-wall",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-bed-wall"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-workshop",
+          "kind": "follows",
+          "label": "where curiosity moved next"
+        },
+        {
+          "sceneId": "z-coffee",
+          "kind": "follows",
+          "label": "books became destiny"
+        }
+      ]
+    },
+    {
+      "id": "s-bed-bed",
+      "parentId": "z-childhood",
+      "title": "Patchwork bed",
+      "description": "The quilt Nonna stitched. Each square a different fabric.",
+      "text": "I knew them all by touch — the soft red flannel from Papà's old shirt, the rough denim square from a pair of jeans, the silky one from a curtain. I'd run my hand over them at night to fall asleep.",
+      "tags": [
+        "family",
+        "comfort",
+        "memory-anchor"
+      ],
+      "people": [
+        "Nonna",
+        "Mamma"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2002-09-03",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-bed-desk",
+      "parentId": "z-childhood",
+      "title": "Tilted desk",
+      "description": "Where I drew impossible spaceships under a brass lamp.",
+      "text": "The desk lamp had a green glass shade. Pencil shavings always on the floor. I'd draw cross-sections of imaginary cities, ships, machines — proto-engineering before I knew the word.",
+      "tags": [
+        "learning",
+        "craft"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2002-09-03",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-cof-notebook",
+          "kind": "follows",
+          "label": "drawing never stopped"
+        }
+      ]
+    },
+    {
+      "id": "s-bed-robot",
+      "parentId": "z-childhood",
+      "title": "Tin robot",
+      "description": "Wind-up legs, sparking when shaken.",
+      "text": "I took it apart twice to see how it worked. The second time I lost a small spring and it never walked again, but it still sparked. A reminder that some failures are worth it.",
+      "tags": [
+        "tool",
+        "memory-anchor"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2002-09-03",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "z-auth",
+          "kind": "follows",
+          "label": "still curious how things work"
+        }
+      ]
+    },
+    {
+      "id": "s-bed-shelf",
+      "parentId": "z-childhood",
+      "title": "Bookshelf",
+      "description": "Verne, Calvino, an illustrated atlas with pirates.",
+      "text": "The atlas was the favourite. I'd open it flat on the floor and crawl across it on my elbows tracing trade routes with my finger. That book is the seed of everything you're seeing right now.",
+      "tags": [
+        "learning",
+        "story",
+        "memory-anchor"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2002-09-03",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-cof-shelf",
+          "kind": "follows",
+          "label": "books as destiny"
+        }
+      ]
+    },
+    {
+      "id": "s-bed-wall",
+      "parentId": "z-childhood",
+      "title": "Drawing wall",
+      "description": "Pinned with crayon battles and a treasure map.",
+      "text": "I drew a treasure map of my own street, complete with X's at suspicious manhole covers and a kraken in the small fountain at the corner. Mamma kept it for years. I think she still has it somewhere.",
+      "tags": [
+        "story",
+        "play"
+      ],
+      "people": [
+        "Mamma"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2002-09-03",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-kitchen",
+      "parentId": null,
+      "title": "Family Kitchen",
+      "description": "Where the year was measured by smells: ragù on Sunday, panettone in December.",
+      "text": "The heart of the house. Long oak table that fit twelve at Christmas. Briciola the tabby on her chair (don't move her). Mamma at the stove, Papà reading the paper, Nonno at the head of the table reciting an old poem before anyone could lift a fork.",
+      "position": {
+        "x": 0.24445132462933383,
+        "y": 0.09274934533332142
+      },
+      "color": "ochre",
+      "domain": "personal",
+      "createdAt": "2010-12-23",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "family",
+        "ritual",
+        "food"
+      ],
+      "people": [
+        "Mamma",
+        "Papà",
+        "Nonno",
+        "Nonna",
+        "Chiara"
+      ],
+      "hotspots": [
+        {
+          "id": "h-kit-table",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-kit-table"
+        },
+        {
+          "id": "h-kit-stove",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-kit-stove"
+        },
+        {
+          "id": "h-kit-window",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-kit-window"
+        },
+        {
+          "id": "h-kit-cat",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-kit-cat"
+        },
+        {
+          "id": "h-kit-calendar",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-kit-calendar"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-workshop",
+          "kind": "shared-with",
+          "label": "same house"
+        },
+        {
+          "sceneId": "z-mountain",
+          "kind": "follows",
+          "label": "Nonna's animals"
+        }
+      ]
+    },
+    {
+      "id": "s-kit-table",
+      "parentId": "z-kitchen",
+      "title": "The Long Table",
+      "description": "Christmas Eve 2010. Twelve plates, three languages spoken at once.",
+      "text": "Mamma in Italian to me, English to her cousins, French to Nonna's old friend who came every year. The wine carafe never empty. Nonno would tap his glass with a knife when it was time for his poem. Even the dog stayed silent for it.",
+      "tags": [
+        "family",
+        "ritual",
+        "food",
+        "memory-anchor"
+      ],
+      "people": [
+        "Mamma",
+        "Papà",
+        "Nonno",
+        "Nonna",
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-24",
+      "hotspots": [
+        {
+          "id": "h-table-poem",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-table-poem"
+        },
+        {
+          "id": "h-table-wine",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-table-wine"
+        }
+      ],
+      "connectsTo": []
+    },
+    {
+      "id": "s-table-poem",
+      "parentId": "s-kit-table",
+      "title": "Nonno's Christmas Poem",
+      "description": "A 12-line verse he wrote in 1955 and recited every year until 2018.",
+      "text": "It was about a fisherman who came home to find his lamp still lit and his dog still waiting. Nonno never wrote it down. After he died Nonna recited the first line one Christmas and we all finished it together — and then nobody recited it again.",
+      "tags": [
+        "family",
+        "ritual",
+        "story",
+        "memory-anchor"
+      ],
+      "people": [
+        "Nonno",
+        "Nonna"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-24",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-wks-radio",
+          "kind": "shared-with",
+          "label": "Nonno's voice"
+        }
+      ]
+    },
+    {
+      "id": "s-table-wine",
+      "parentId": "s-kit-table",
+      "title": "The Carafe",
+      "description": "Hand-blown glass, slight green tint, chipped at the lip.",
+      "text": "Filled from a demijohn under the stairs. Papà made the wine with my uncle every October. The chip at the lip happened in 1998, before I was born — it survived three moves and is still in use.",
+      "tags": [
+        "family",
+        "craft",
+        "food"
+      ],
+      "people": [
+        "Papà"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-24",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-kit-stove",
+      "parentId": "z-kitchen",
+      "title": "Copper Pot",
+      "description": "Mamma's ragù simmering since dawn. The whole house knew Sunday by the smell.",
+      "text": "Bought at a market in Modena in 1985. Tinned twice, repaired once. Mamma said cooking ragù in anything else was 'an insult'. The lid had a tiny dent on the handle from when I dropped it at age 6.",
+      "tags": [
+        "family",
+        "food",
+        "ritual",
+        "craft"
+      ],
+      "people": [
+        "Mamma"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-23",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-kit-window",
+      "parentId": "z-kitchen",
+      "title": "Garden Window",
+      "description": "The lemon tree Papà planted the year I was born.",
+      "text": "It produced its first lemons when I was seven, just three. Papà cut them into wedges with great ceremony and we put them on every dish that night.",
+      "tags": [
+        "nature",
+        "light",
+        "family"
+      ],
+      "people": [
+        "Papà"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-23",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-wks-window",
+          "kind": "shared-with",
+          "label": "same house"
+        }
+      ]
+    },
+    {
+      "id": "s-kit-cat",
+      "parentId": "z-kitchen",
+      "title": "Briciola",
+      "description": "Tabby. Always the same chair. Furious if you moved her.",
+      "text": "Lived 19 years. Hated everyone except Nonna and, mysteriously, the postman. Curled into a perfect circle with her tail over her nose. I have a hundred mental snapshots of her in this exact pose on this exact chair.",
+      "tags": [
+        "family",
+        "animal",
+        "comfort"
+      ],
+      "people": [
+        "Nonna"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-23",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-mtn-dog",
+          "kind": "shared-with",
+          "label": "Nonna's animals"
+        }
+      ]
+    },
+    {
+      "id": "s-kit-calendar",
+      "parentId": "z-kitchen",
+      "title": "Pinned Calendar",
+      "description": "March 2010, with a child's drawing of a rocket pinned over the dates.",
+      "text": "My drawing. I gave it to Mamma as a birthday card. She replaced the actual calendar every year but never moved my drawing. I think it's still there.",
+      "tags": [
+        "family",
+        "memory-anchor"
+      ],
+      "people": [
+        "Mamma"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2010-12-23",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-university",
+      "parentId": null,
+      "title": "University Courtyard",
+      "description": "Stone cloister, chestnut tree, the smell of old paper and cheap coffee.",
+      "text": "Five years of my life happened on these stones. The bench under the chestnut tree was where Marco and I planned everything that ended up actually mattering — the trip, the band, the company we never started.",
+      "position": {
+        "x": 0.3357342711652172,
+        "y": 1.0058784484584622
+      },
+      "color": "mint",
+      "domain": "personal",
+      "createdAt": "2018-03-15",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "learning",
+        "friendship",
+        "place"
+      ],
+      "people": [
+        "Marco",
+        "Lorenzo"
+      ],
+      "hotspots": [
+        {
+          "id": "h-uni-arches",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-uni-arches"
+        },
+        {
+          "id": "h-uni-bench",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-uni-bench"
+        },
+        {
+          "id": "h-uni-fountain",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-uni-fountain"
+        },
+        {
+          "id": "h-uni-bikes",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-uni-bikes"
+        },
+        {
+          "id": "h-uni-board",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-uni-board"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-coffee",
+          "kind": "follows",
+          "label": "first book read outside the syllabus"
+        },
+        {
+          "sceneId": "z-concert",
+          "kind": "shared-with",
+          "label": "the same trio"
+        }
+      ]
+    },
+    {
+      "id": "s-uni-arches",
+      "parentId": "z-university",
+      "title": "Stone cloister",
+      "description": "Lecture days started here. Smell of old stone and printer paper.",
+      "text": "Built in 1483, restored in 1972. The acoustics meant you could hear the conversation at the other end of the courtyard if it bounced right. Useful and dangerous.",
+      "tags": [
+        "learning",
+        "place"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2018-03-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-uni-bench",
+      "parentId": "z-university",
+      "title": "Bench Under Chestnut",
+      "description": "Where Marco and I planned everything that mattered.",
+      "text": "A coffee thermos passed back and forth. Notebooks open. The chestnut dropping leaves on us in autumn and chestnuts in October. Lorenzo joined us in the second year — he sat cross-legged on the ground because the bench fit two.",
+      "tags": [
+        "learning",
+        "friendship",
+        "memory-anchor"
+      ],
+      "people": [
+        "Marco",
+        "Lorenzo"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2018-03-15",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-con-audience",
+          "kind": "shared-with",
+          "label": "Marco & Lorenzo"
+        }
+      ]
+    },
+    {
+      "id": "s-uni-fountain",
+      "parentId": "z-university",
+      "title": "Fountain",
+      "description": "End of exams: the unwritten ritual of dipping a hand in.",
+      "text": "Always cold, even in July. Nobody knew when the tradition started. I dipped my hand after the last exam of every year and one extra time the day I defended my thesis.",
+      "tags": [
+        "ritual",
+        "learning"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2018-03-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-uni-bikes",
+      "parentId": "z-university",
+      "title": "Leaning bikes",
+      "description": "Mine had a busted bell I never fixed.",
+      "text": "You could find my bike by sound alone — it had a clatter from a loose mudguard that I refused to repair because it was how I located my own bike in a sea of similar ones. Stolen in 2020. I cried for an hour.",
+      "tags": [
+        "transition",
+        "tool"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2018-03-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-uni-board",
+      "parentId": "z-university",
+      "title": "Notice Board",
+      "description": "Where I saw the flyer for the writing group at the coffee shop.",
+      "text": "Pinned with a green thumbtack between a sublet ad and a missing-cat poster. I tore the slip with the address and folded it into my wallet. Two weeks later I went, and met Chiara.",
+      "tags": [
+        "transition",
+        "story",
+        "memory-anchor"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2018-03-15",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "z-coffee",
+          "kind": "follows",
+          "label": "where I met Chiara"
+        }
+      ]
+    },
+    {
+      "id": "z-mountain",
+      "parentId": null,
+      "title": "Mountain Refuge",
+      "description": "Pale di San Martino. Pink dawn. The fireplace took three matches.",
+      "text": "First trip with Chiara at altitude. We took the long route on purpose. Slept in a six-person bunk dorm that smelled of wool and wet boots. Soup at midnight, six strangers becoming friends by 1am.",
+      "position": {
+        "x": 0.42,
+        "y": 0.2
+      },
+      "color": "mint",
+      "domain": "personal",
+      "createdAt": "2021-07-08",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "nature",
+        "love",
+        "ritual",
+        "transition"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "hotspots": [
+        {
+          "id": "h-mtn-fireplace",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-mtn-fireplace"
+        },
+        {
+          "id": "h-mtn-table",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-mtn-table"
+        },
+        {
+          "id": "h-mtn-window",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-mtn-window"
+        },
+        {
+          "id": "h-mtn-dog",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-mtn-dog"
+        },
+        {
+          "id": "h-mtn-map",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-mtn-map"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-train",
+          "kind": "recalls",
+          "label": "the journey there"
+        }
+      ]
+    },
+    {
+      "id": "s-mtn-fireplace",
+      "parentId": "z-mountain",
+      "title": "Stone fireplace",
+      "description": "First fire took three matches.",
+      "text": "Chiara held the kindling steady while I struck. The first two went out. The third caught and we sat back-to-back against the warm stones until 2am, drinking grappa from tin cups.",
+      "tags": [
+        "nature",
+        "ritual",
+        "love"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2021-07-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-mtn-table",
+      "parentId": "z-mountain",
+      "title": "Communal Table",
+      "description": "Six strangers sharing soup. By midnight we knew each other's mountains.",
+      "text": "An older couple from Belgium, two German climbers, a solo hiker from Slovenia, us. The Slovenian woman had walked the entire Alta Via 2 alone in 18 days and shared stories like trail mix.",
+      "tags": [
+        "nature",
+        "friendship",
+        "food"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2021-07-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-mtn-window",
+      "parentId": "z-mountain",
+      "title": "Window to Peaks",
+      "description": "Dawn over the Pale di San Martino. Pink, then gold, then ordinary.",
+      "text": "I woke at 5:40am for no reason and saw it. Chiara opened her eyes for two seconds and went back to sleep. I sat there for forty minutes watching the light change. The most expensive mountain hut in Italy was free that morning.",
+      "tags": [
+        "nature",
+        "light",
+        "love"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2021-07-09",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-trn-window",
+          "kind": "follows",
+          "label": "the journey's destination"
+        }
+      ]
+    },
+    {
+      "id": "s-mtn-dog",
+      "parentId": "z-mountain",
+      "title": "Refuge Dog",
+      "description": "An old border collie who decided I was worth following to the bunk.",
+      "text": "Wandered between guests but slept at my feet. The owner laughed and said 'sceglie sempre uno, ogni gruppo'. The next morning he chose a Belgian woman and I felt mildly betrayed.",
+      "tags": [
+        "nature",
+        "animal"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2021-07-08",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-kit-cat",
+          "kind": "shared-with",
+          "label": "animals choosing me"
+        }
+      ]
+    },
+    {
+      "id": "s-mtn-map",
+      "parentId": "z-mountain",
+      "title": "Trail Map",
+      "description": "Pinned to the wall with our route highlighted in pencil.",
+      "text": "We took the longer route on purpose, said we'd cut back to the marked one. We didn't. Got lost for an hour, then re-found by descending toward sound of bells. Cows.",
+      "tags": [
+        "transition",
+        "ritual"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2021-07-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-bouldering",
+      "parentId": null,
+      "title": "Bouldering Gym",
+      "description": "The blue V5 took three months. The day I sent it I cried, embarrassed.",
+      "text": "Three evenings a week for two years. Marco was already there when I joined. He's the one who taught me to read routes — to look at a wall like a sentence with verbs and pronouns and full stops.",
+      "position": {
+        "x": 0.5,
+        "y": 0.85
+      },
+      "color": "ochre",
+      "domain": "personal",
+      "createdAt": "2023-09-21",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "body",
+        "ritual",
+        "friendship",
+        "memory-anchor"
+      ],
+      "people": [
+        "Marco"
+      ],
+      "hotspots": [
+        {
+          "id": "h-bld-wall",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-bld-wall"
+        },
+        {
+          "id": "h-bld-mat",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-bld-mat"
+        },
+        {
+          "id": "h-bld-shoes",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-bld-shoes"
+        },
+        {
+          "id": "h-bld-coffee",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-bld-coffee"
+        },
+        {
+          "id": "h-bld-chalkboard",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-bld-chalkboard"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-concert",
+          "kind": "shared-with",
+          "label": "Marco's music"
+        }
+      ]
+    },
+    {
+      "id": "s-bld-wall",
+      "parentId": "z-bouldering",
+      "title": "Overhang Wall",
+      "description": "The blue V5 I worked at for three months.",
+      "text": "The crux was a heel-hook to a sloper that I kept missing by half a centimeter. The day I sent it I came down and walked outside without saying a word and cried in my car for ten minutes. Marco knew. He waited.",
+      "tags": [
+        "body",
+        "ritual",
+        "memory-anchor"
+      ],
+      "people": [
+        "Marco"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2023-09-21",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-bld-mat",
+      "parentId": "z-bouldering",
+      "title": "Crash Mats",
+      "description": "Where conversations happen between attempts.",
+      "text": "The best ones with Marco. Lying on the mat, breathing, talking about nothing — work, music, the band we were going to start, what to eat after. Some of those mat conversations were better than therapy.",
+      "tags": [
+        "body",
+        "friendship"
+      ],
+      "people": [
+        "Marco"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2023-09-21",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-bld-shoes",
+      "parentId": "z-bouldering",
+      "title": "Shoes Lined Up",
+      "description": "A row of beat-up rubber.",
+      "text": "I could tell whose was whose without looking. Marco's right shoe always slightly more worn than the left. Mine had a tape repair on the heel that I kept renewing for a year before finally buying new ones.",
+      "tags": [
+        "body",
+        "tool"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2023-09-21",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-bld-coffee",
+      "parentId": "z-bouldering",
+      "title": "Reception Coffee",
+      "description": "Bad espresso. We drank it anyway.",
+      "text": "Marco insisted it was 'character'. The machine was a 1990s Faema that the owner refused to replace. I once tasted that coffee in my dreams and woke up upset.",
+      "tags": [
+        "friendship",
+        "food"
+      ],
+      "people": [
+        "Marco"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2023-09-21",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-bld-chalkboard",
+      "parentId": "z-bouldering",
+      "title": "Routes Chalkboard",
+      "description": "Today's setting: 'green slabs for the soul'.",
+      "text": "The setter was a woman called Vera who wrote little phrases for each session. Whoever titled that day knew us. We took a photo and sent it to each other for years afterwards.",
+      "tags": [
+        "body",
+        "story"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2023-09-21",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-coffee",
+      "parentId": null,
+      "title": "Coffee Shop",
+      "description": "Rosa knew my order before I sat down. 'Solito?'",
+      "text": "Where I drew the first sketch of the auth service in a margin. Where I borrowed and never returned Calvino's 'Le città invisibili'. Where I met Chiara across a table because of a writing group flyer I found at university.",
+      "position": {
+        "x": 0.55,
+        "y": 0.65
+      },
+      "color": "dust",
+      "domain": "personal",
+      "createdAt": "2019-11-04",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "ritual",
+        "learning",
+        "love",
+        "story"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "hotspots": [
+        {
+          "id": "h-cof-bar",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-cof-bar"
+        },
+        {
+          "id": "h-cof-shelf",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-cof-shelf"
+        },
+        {
+          "id": "h-cof-window",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-cof-window"
+        },
+        {
+          "id": "h-cof-cat",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-cof-cat"
+        },
+        {
+          "id": "h-cof-notebook",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-cof-notebook"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-auth",
+          "kind": "follows",
+          "label": "the first architecture I ever drew"
+        }
+      ]
+    },
+    {
+      "id": "s-cof-bar",
+      "parentId": "z-coffee",
+      "title": "Espresso Bar",
+      "description": "Rosa at the machine. She knew my order before I sat down.",
+      "text": "'Solito?'. After three years she stopped asking. The first time she didn't ask I felt promoted. She left in 2022 to open her own place in Bologna and the new barista doesn't know what 'solito' means.",
+      "tags": [
+        "ritual",
+        "food"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2019-11-04",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-cof-shelf",
+      "parentId": "z-coffee",
+      "title": "Bookshelf",
+      "description": "Where I borrowed (and never returned) Calvino.",
+      "text": "'Le città invisibili'. The spine still bent at page 47. I always meant to return it but every time I went the shelf had moved on and there was no obvious place to slip it back. It's still on my bedside.",
+      "tags": [
+        "learning",
+        "story"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2019-11-04",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-bed-shelf",
+          "kind": "follows",
+          "label": "the books that became destiny"
+        }
+      ]
+    },
+    {
+      "id": "s-cof-window",
+      "parentId": "z-coffee",
+      "title": "Rainy Window",
+      "description": "October rain made every table feel chosen.",
+      "text": "Mine was always the one in the corner near the radiator. Sometimes Chiara took it before me and we'd negotiate by eyebrow. The streetlight outside cast a particular glow on the table — I tried to photograph it once, never got it right.",
+      "tags": [
+        "light",
+        "ritual"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2019-11-04",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-cof-cat",
+      "parentId": "z-coffee",
+      "title": "Pepe",
+      "description": "Hated everyone except Chiara. Sat on her notebook every Sunday.",
+      "text": "A small grey cat with a white paw. Adopted by the shop in 2018. He'd spring up onto Chiara's table the moment she opened her notebook and refuse to move. She got more done before he arrived than after, but never had the heart to push him off.",
+      "tags": [
+        "animal",
+        "love"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2019-11-04",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-cof-notebook",
+      "parentId": "z-coffee",
+      "title": "Margin Notebook",
+      "description": "Where I drew the first sketch of the auth service.",
+      "text": "A Moleskine with squared pages. The original sketch is on page 23 — boxes labeled 'login', 'token', 'cache', arrows between them, a shopping list for groceries on page 22 and a doodle of Pepe on page 24. Three things in one hand.",
+      "tags": [
+        "craft",
+        "memory-anchor",
+        "transition"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2019-11-04",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "z-auth",
+          "kind": "follows",
+          "label": "from this margin to production"
+        }
+      ]
+    },
+    {
+      "id": "z-concert",
+      "parentId": null,
+      "title": "Concert Front Row",
+      "description": "Fontaines D.C. at Magnolia. The drummer's snare crack still in my chest.",
+      "text": "Marco on my left, Lorenzo on my right. We didn't speak for two hours. The bass moved my jeans. By the encore I was hoarse and grinning and Lorenzo was crying without realising it.",
+      "position": {
+        "x": 0.2,
+        "y": 0.78
+      },
+      "color": "ochre",
+      "domain": "personal",
+      "createdAt": "2016-06-18",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "music",
+        "friendship",
+        "memory-anchor",
+        "body"
+      ],
+      "people": [
+        "Marco",
+        "Lorenzo"
+      ],
+      "hotspots": [
+        {
+          "id": "h-con-stage",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-con-stage"
+        },
+        {
+          "id": "h-con-amps",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-con-amps"
+        },
+        {
+          "id": "h-con-floor",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-con-floor"
+        },
+        {
+          "id": "h-con-audience",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-con-audience"
+        },
+        {
+          "id": "h-con-mixer",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-con-mixer"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-workshop",
+          "kind": "recalls",
+          "label": "from Coltrane to here"
+        }
+      ]
+    },
+    {
+      "id": "s-con-stage",
+      "parentId": "z-concert",
+      "title": "Stage Spotlight",
+      "description": "Fontaines D.C. The drummer's snare crack still in my chest.",
+      "text": "Tom Coll on drums, the snare so dry and loud it punched a hole in the air. Grian Chatten leaning into the mic so close his breath fogged the windscreen. I bought their album at the merch table afterwards and listened to it every day for three weeks.",
+      "tags": [
+        "music",
+        "memory-anchor"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2016-06-18",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-con-amps",
+      "parentId": "z-concert",
+      "title": "Amplifier Wall",
+      "description": "Bigger than me. The bass moved my jeans.",
+      "text": "Three Ampegs stacked. I felt the kick drum in my sternum for the next 36 hours. Lorenzo joked that we'd have to get Magnolia membership cards and I laughed but I think he was half serious.",
+      "tags": [
+        "music"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2016-06-18",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-wks-radio",
+          "kind": "follows",
+          "label": "from a small radio to a wall of sound"
+        }
+      ]
+    },
+    {
+      "id": "s-con-floor",
+      "parentId": "z-concert",
+      "title": "Sticky Floor",
+      "description": "Beer and adrenaline.",
+      "text": "We had to peel our shoes off the lino at midnight. My right shoe came off first and I almost fell. A guy I'd never seen reached out instinctively to catch me. We nodded at each other. Strangers in a flock.",
+      "tags": [
+        "body",
+        "ritual"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2016-06-18",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-con-audience",
+      "parentId": "z-concert",
+      "title": "Crowd of Arms",
+      "description": "Marco on my left, Lorenzo on my right. We didn't speak for two hours.",
+      "text": "Didn't need to. Lorenzo was crying by the encore without realising it. Marco kept his eyes closed for entire songs. I kept opening mine to make sure the others were still there. We hugged in the parking lot afterwards without commenting.",
+      "tags": [
+        "friendship",
+        "music",
+        "memory-anchor"
+      ],
+      "people": [
+        "Marco",
+        "Lorenzo"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2016-06-18",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-uni-bench",
+          "kind": "shared-with",
+          "label": "the same trio"
+        }
+      ]
+    },
+    {
+      "id": "s-con-mixer",
+      "parentId": "z-concert",
+      "title": "Mixing Desk",
+      "description": "The sound engineer's tiny hands flying.",
+      "text": "Like a watchmaker on speed. Two faders moving simultaneously, eyes on the band, one hand for headphones and one hand for the mic talkback. I watched her for the whole encore.",
+      "tags": [
+        "craft",
+        "music"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2016-06-18",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-train",
+      "parentId": null,
+      "title": "Night Train",
+      "description": "Po valley sliding past. Chiara asleep against the glass.",
+      "text": "Sleeper from Bologna to Belluno, January. We had two bunks but slept in one. The conductor passing every hour punching tickets like a metronome.",
+      "position": {
+        "x": 0.62,
+        "y": 0.4
+      },
+      "color": "dust",
+      "domain": "personal",
+      "createdAt": "2020-02-14",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "transition",
+        "love",
+        "light",
+        "story"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "hotspots": [
+        {
+          "id": "h-trn-window",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-trn-window"
+        },
+        {
+          "id": "h-trn-book",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-trn-book"
+        },
+        {
+          "id": "h-trn-corridor",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-trn-corridor"
+        },
+        {
+          "id": "h-trn-thermos",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-trn-thermos"
+        },
+        {
+          "id": "h-trn-light",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-trn-light"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-mountain",
+          "kind": "follows",
+          "label": "destination"
+        }
+      ]
+    },
+    {
+      "id": "s-trn-window",
+      "parentId": "z-train",
+      "title": "Moonlit Window",
+      "description": "Po valley sliding past. Chiara asleep against the glass, hair across her face.",
+      "text": "I didn't move for forty minutes for fear of waking her. The moon was full and the snow on the fields glowed blue. I wrote a sentence in my notebook that I still keep: 'Tutto il viaggio era già nel finestrino'.",
+      "tags": [
+        "transition",
+        "love",
+        "light",
+        "memory-anchor"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2020-02-14",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-mtn-window",
+          "kind": "follows",
+          "label": "where we were going"
+        }
+      ]
+    },
+    {
+      "id": "s-trn-book",
+      "parentId": "z-train",
+      "title": "Folded Book",
+      "description": "'Stoner' by John Williams. I lost my place but didn't mind.",
+      "text": "Borrowed from Lorenzo. I read three sentences and then watched Chiara breathing. The book is now back with Lorenzo with the corner of page 47 still folded.",
+      "tags": [
+        "story",
+        "transition"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2020-02-14",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-trn-corridor",
+      "parentId": "z-train",
+      "title": "The Corridor",
+      "description": "Conductor passing every hour. Punching tickets like a metronome.",
+      "text": "Tall man, grey beard, ironed uniform. Said 'buona notte' the third time he passed and I felt seen. He probably said it to everyone but at 3am it landed.",
+      "tags": [
+        "transition",
+        "ritual"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2020-02-14",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-trn-thermos",
+      "parentId": "z-train",
+      "title": "Thermos",
+      "description": "Tea. I'd brought it so we wouldn't pay for the bar's. We did anyway.",
+      "text": "Chiara forgot the thermos was full and we ended up buying two camomilles from the bar carriage. The thermos came home unopened. We laughed about it for the entire trip and again every time we took a train after.",
+      "tags": [
+        "food",
+        "ritual"
+      ],
+      "people": [
+        "Chiara"
+      ],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2020-02-14",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-trn-light",
+      "parentId": "z-train",
+      "title": "Reading Lamp",
+      "description": "The orange filament glow.",
+      "text": "I read the same paragraph four times, smiling. Couldn't focus and didn't want to. The light was so warm it looked like a small sun in a small box. I bought a similar lamp for our flat the next month.",
+      "tags": [
+        "light",
+        "story"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2020-02-14",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-auth",
+      "parentId": null,
+      "title": "Auth Service",
+      "description": "The login gateway. Scribe inside, redis silo, stone well of users.",
+      "text": "First service I architected from scratch in 2024. Three weeks of design, two of implementation, one of integration. Still humming today, ~20k requests/min at peak.",
+      "position": {
+        "x": 0.78,
+        "y": 0.5
+      },
+      "color": "ochre",
+      "domain": "software",
+      "createdAt": "2024-08-15",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "service",
+        "process",
+        "gateway",
+        "persistence"
+      ],
+      "people": [],
+      "hotspots": [
+        {
+          "id": "h-auth-scribe",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-auth-scribe"
+        },
+        {
+          "id": "h-auth-redis",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-auth-redis"
+        },
+        {
+          "id": "h-auth-well",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-auth-well"
+        },
+        {
+          "id": "h-auth-request",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#C97B5C",
+          "childSceneId": "s-auth-request"
+        },
+        {
+          "id": "h-auth-list",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-auth-list"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-gateway",
+          "kind": "calls",
+          "label": "fronted by API Gateway"
+        },
+        {
+          "sceneId": "z-search",
+          "kind": "shared-with",
+          "label": "shared user well"
+        }
+      ]
+    },
+    {
+      "id": "s-auth-scribe",
+      "parentId": "z-auth",
+      "title": "The Scribe",
+      "description": "The main service worker. Verifies credentials, issues JWTs, logs every event.",
+      "text": "Implemented as a stateless Node service with sharded workers. Each scribe handles one request at a time and writes a single audit line per event. The audit log is append-only and immutable.",
+      "tags": [
+        "service",
+        "process",
+        "gateway"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [
+        {
+          "id": "h-scribe-jwt",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-scribe-jwt"
+        },
+        {
+          "id": "h-scribe-audit",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-scribe-audit"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "s-auth-redis",
+          "kind": "reads"
+        },
+        {
+          "sceneId": "s-auth-well",
+          "kind": "writes"
+        }
+      ]
+    },
+    {
+      "id": "s-scribe-jwt",
+      "parentId": "s-auth-scribe",
+      "title": "JWT Issue Routine",
+      "description": "The token signing path. RS256, 15-min expiry, refresh on use.",
+      "text": "Keys rotated quarterly. The signing routine takes <2ms p99. We keep the previous key around for 24h after rotation to handle in-flight tokens. Once we forgot and 4% of users got logged out at 09:00 on a Monday.",
+      "tags": [
+        "service",
+        "process",
+        "gateway"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-scribe-audit",
+      "parentId": "s-auth-scribe",
+      "title": "Audit Log",
+      "description": "Every event. Append-only. Never deleted.",
+      "text": "Stored in a separate cluster from the main DB. Read-only after write. Used for compliance, debugging, and (rarely) for resolving customer disputes. The log is in the legal record retention policy as 7 years.",
+      "tags": [
+        "persistence",
+        "document",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-auth-redis",
+      "parentId": "z-auth",
+      "title": "Redis Silo",
+      "description": "Caches the morning login peak. Saves the DB from fifty thousand lookups.",
+      "text": "Two-node primary-replica with a 24h TTL on session keys. The morning peak (07:30-09:30) hits this silo 50x harder than the DB. Without it the DB would buckle by 8:15.",
+      "tags": [
+        "service",
+        "cache"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-auth-well",
+      "parentId": "z-auth",
+      "title": "User Database",
+      "description": "Stone well, source of truth. Slower, deeper, never lies.",
+      "text": "PostgreSQL 15. ~3M user rows. Indexed on (email, tenant_id). Read replicas for the hot read path. The well is the system of record — anything else can be rebuilt from it.",
+      "tags": [
+        "service",
+        "persistence"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-auth-request",
+      "parentId": "z-auth",
+      "title": "Incoming Request",
+      "description": "A login attempt walking up the steps with credentials in hand.",
+      "text": "Arrives via the API Gateway, already rate-limited and TLS-terminated. The Auth Service receives a clean envelope: email, password hash candidate, tenant header, request id. Everything else is rejected.",
+      "tags": [
+        "client",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-auth-list",
+      "parentId": "z-auth",
+      "title": "Verification List",
+      "description": "1) verify password, 2) issue token, 3) log event.",
+      "text": "Pinned to the wall, immutable. The order matters: log only fires on success, but a 'failed-login' counter is bumped before step 1 returns. Five failed attempts in 60s and the account locks for 5 minutes.",
+      "tags": [
+        "process",
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-08-15",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-gateway",
+      "parentId": null,
+      "title": "API Gateway",
+      "description": "The fortified city gate. Guards, route map, rate scale, the long bench of waiting.",
+      "text": "All traffic enters here. Authentication, rate limiting, observability, route fan-out. If the gateway falls, the city falls — that's why we have three of them in three regions, all healthy at all times.",
+      "position": {
+        "x": 0.8254845765691331,
+        "y": 0.16880959726386713
+      },
+      "color": "dust",
+      "domain": "software",
+      "createdAt": "2024-09-02",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "service",
+        "gateway",
+        "process"
+      ],
+      "people": [],
+      "hotspots": [
+        {
+          "id": "h-gw-guard",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-gw-guard"
+        },
+        {
+          "id": "h-gw-route",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-gw-route"
+        },
+        {
+          "id": "h-gw-scale",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-gw-scale"
+        },
+        {
+          "id": "h-gw-queue",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-gw-queue"
+        },
+        {
+          "id": "h-gw-banner",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-gw-banner"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-auth",
+          "kind": "calls"
+        },
+        {
+          "sceneId": "z-search",
+          "kind": "calls"
+        },
+        {
+          "sceneId": "z-payment",
+          "kind": "calls"
+        }
+      ]
+    },
+    {
+      "id": "s-gw-guard",
+      "parentId": "z-gateway",
+      "title": "Gate Guard",
+      "description": "Checks every visitor against the route map.",
+      "text": "The HTTP method router. Bounces unknown paths with a 404, malformed requests with 400, missing auth with 401. Polite but unbendable. Logs every rejection for the analytics pipeline.",
+      "tags": [
+        "service",
+        "gateway"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-09-02",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-gw-route",
+      "parentId": "z-gateway",
+      "title": "Route Map",
+      "description": "Pinned URL routes. Updated each deploy.",
+      "text": "Generated from a single OpenAPI spec at build time. Currently 247 routes across 12 services. Each route has owner, SLO, and rate limit annotated.",
+      "tags": [
+        "gateway",
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-09-02",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-gw-scale",
+      "parentId": "z-gateway",
+      "title": "Rate Scale",
+      "description": "Brass weight on each request. Too many from one address — quietly dropped.",
+      "text": "Token bucket per IP, per tenant, per route. Default 100 req/min. Burst of 20 allowed. Banned IPs cool off for 5 minutes, then 30, then forever. The ban list is shared across the three gateway regions.",
+      "tags": [
+        "gateway",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-09-02",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-gw-queue",
+      "parentId": "z-gateway",
+      "title": "Waiting Bench",
+      "description": "Where requests sit during a backpressure storm.",
+      "text": "Internal buffer with a 200ms timeout. Rarely full but watched. When it fills, the gateway sheds load with a 503 and a 'Retry-After' header. The bench depth is a leading indicator for capacity issues downstream.",
+      "tags": [
+        "client",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-09-02",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-gw-banner",
+      "parentId": "z-gateway",
+      "title": "Status Banner",
+      "description": "'OK' in green. Sometimes 'partial' in amber. Never red on my watch.",
+      "text": "Rendered from health checks of all downstream services. Green if everything healthy, amber if non-critical degradation, red if user-facing impact. The page updates every 30s and is publicly accessible at status.cortex.io.",
+      "tags": [
+        "document",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-09-02",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-search",
+      "parentId": null,
+      "title": "Search Index",
+      "description": "Library and librarian. Card catalog, half a million scrolls.",
+      "text": "Full-text + faceted search. Indexes user content, hotspots, tags. p99 < 80ms for a single-tenant query. Shared user well with Auth Service for ACL checks.",
+      "position": {
+        "x": 1.0356896439626135,
+        "y": 0.38029543364347557
+      },
+      "color": "mint",
+      "domain": "software",
+      "createdAt": "2025-01-12",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "service",
+        "persistence",
+        "process"
+      ],
+      "people": [],
+      "hotspots": [
+        {
+          "id": "h-srch-librarian",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-srch-librarian"
+        },
+        {
+          "id": "h-srch-catalog",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-srch-catalog"
+        },
+        {
+          "id": "h-srch-shelves",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-srch-shelves"
+        },
+        {
+          "id": "h-srch-slip",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-srch-slip"
+        },
+        {
+          "id": "h-srch-trending",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-srch-trending"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-auth",
+          "kind": "shared-with",
+          "label": "user ACLs"
+        }
+      ]
+    },
+    {
+      "id": "s-srch-librarian",
+      "parentId": "z-search",
+      "title": "Librarian",
+      "description": "Reads the request slip, fetches matching scrolls within milliseconds.",
+      "text": "OpenSearch-based. The librarian is the query parser + scorer. Custom analyzers for Italian and English. BM25 scoring with tenant-level boosts.",
+      "tags": [
+        "service",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-01-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-srch-catalog",
+      "parentId": "z-search",
+      "title": "Card Catalog",
+      "description": "The inverted index.",
+      "text": "Each card a token, every card pointing to a page. Updated incrementally on document changes. Full reindex monthly during the 03:00-05:00 quiet window.",
+      "tags": [
+        "persistence",
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-01-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-srch-shelves",
+      "parentId": "z-search",
+      "title": "Shelves",
+      "description": "Indexed records in alphabetical drift. Half a million rolled scrolls.",
+      "text": "Sharded across 8 nodes with 2 replicas each. Hot shards on SSD, cold on object storage with a 5s warm-up penalty for very old documents.",
+      "tags": [
+        "persistence"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-01-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-srch-slip",
+      "parentId": "z-search",
+      "title": "Request Slip",
+      "description": "A visitor's query, half written in a hurry.",
+      "text": "Free text + filters + pagination cursor. The librarian is forgiving: typos go through a fuzzy matcher, abbreviations expand from a tenant-specific synonym table.",
+      "tags": [
+        "client",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-01-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-srch-trending",
+      "parentId": "z-search",
+      "title": "Trending Shelf",
+      "description": "Three scrolls under the brass lamp.",
+      "text": "Most-asked queries today, recomputed every 15 minutes. Used for analytics and to surface seasonal trends. Last week 'auth' overtook 'search' for the first time in this app's history.",
+      "tags": [
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-01-12",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-notif",
+      "parentId": null,
+      "title": "Notification Service",
+      "description": "Bell tower, scribe folding letters, pigeons in flight.",
+      "text": "Triggered by events. Folds messages into email/sms/push. Fanout across providers with retry, dead-letter, and compliance constraints (no email after 23:00 local time).",
+      "position": {
+        "x": 0.7,
+        "y": 0.78
+      },
+      "color": "mint",
+      "domain": "software",
+      "createdAt": "2024-10-20",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "service",
+        "async",
+        "process"
+      ],
+      "people": [],
+      "hotspots": [
+        {
+          "id": "h-not-bell",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-not-bell"
+        },
+        {
+          "id": "h-not-scribe",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-not-scribe"
+        },
+        {
+          "id": "h-not-pigeons",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-not-pigeons"
+        },
+        {
+          "id": "h-not-failed",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-not-failed"
+        },
+        {
+          "id": "h-not-template",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-not-template"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-jobqueue",
+          "kind": "calls",
+          "label": "deferred sends"
+        }
+      ]
+    },
+    {
+      "id": "s-not-bell",
+      "parentId": "z-notif",
+      "title": "Bell Tower",
+      "description": "Triggers the chain. Every event a rope pull.",
+      "text": "Listens to a Kafka topic of platform events. ~120k events/day. Each event tagged with severity, user, locale.",
+      "tags": [
+        "service",
+        "async"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-10-20",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-not-scribe",
+      "parentId": "z-notif",
+      "title": "Letter Scribe",
+      "description": "Folds emails, sms, push.",
+      "text": "Wax seal on each. Hand-cramped by Friday. Templates rendered with Handlebars + locale lookup. Each output validated against the channel's spec before sending.",
+      "tags": [
+        "process",
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-10-20",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-jq-dispatcher",
+          "kind": "writes",
+          "label": "deferred sends"
+        }
+      ]
+    },
+    {
+      "id": "s-not-pigeons",
+      "parentId": "z-notif",
+      "title": "Pigeon Cote",
+      "description": "Outgoing messengers. 99.4% return with delivery confirmations.",
+      "text": "Three providers per channel for redundancy: Postmark/SES/Mailgun for email, Twilio/Vonage for SMS, FCM/APNS for push. Round-robin with health-aware fallback.",
+      "tags": [
+        "async",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-10-20",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-not-failed",
+      "parentId": "z-notif",
+      "title": "Returned Letters",
+      "description": "Stack marked 'undelivered'.",
+      "text": "Bounces, expired tokens, dead addresses. Reviewed by a human eye every Monday. Hard bounces remove the contact from the address book; soft bounces retry with exponential backoff up to 24h.",
+      "tags": [
+        "document",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-10-20",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-not-template",
+      "parentId": "z-notif",
+      "title": "Template Board",
+      "description": "Pinned form letters. 'Welcome', 'Reset', 'Receipt'.",
+      "text": "Edited once a quarter. Localised in 8 languages, including a tone level (formal/informal) per locale. Italian comes in two: 'tu' for younger users, 'Lei' for the Boomer cohort.",
+      "tags": [
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-10-20",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-payment",
+      "parentId": null,
+      "title": "Payment Processor",
+      "description": "Money-changer's bureau. Brass scales, oak counter, the iron vault.",
+      "text": "Handles checkout, refunds, settlement. Vault opens daily at 23:59 UTC. Telegraph wires to the external bank for clearing.",
+      "position": {
+        "x": 0.88,
+        "y": 0.78
+      },
+      "color": "ochre",
+      "domain": "software",
+      "createdAt": "2024-11-08",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "service",
+        "payment",
+        "persistence"
+      ],
+      "people": [],
+      "hotspots": [
+        {
+          "id": "h-pay-clerk",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-pay-clerk"
+        },
+        {
+          "id": "h-pay-vault",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-pay-vault"
+        },
+        {
+          "id": "h-pay-ledger",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-pay-ledger"
+        },
+        {
+          "id": "h-pay-customer",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-pay-customer"
+        },
+        {
+          "id": "h-pay-telegraph",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-pay-telegraph"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-jobqueue",
+          "kind": "calls",
+          "label": "scheduled charges"
+        }
+      ]
+    },
+    {
+      "id": "s-pay-clerk",
+      "parentId": "z-payment",
+      "title": "Money-changer",
+      "description": "Counts each coin twice, weighs them on brass scales.",
+      "text": "Synchronous charge endpoint. p99 < 600ms. 3D Secure flow for European cards. Idempotency keys mandatory — duplicate charges are quietly de-duped.",
+      "tags": [
+        "service",
+        "process",
+        "payment"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-11-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-pay-vault",
+      "parentId": "z-payment",
+      "title": "Iron Vault",
+      "description": "Settled funds. Opens once a day at 23:59 UTC.",
+      "text": "Daily reconciliation against the bank statement. Discrepancies are paged immediately and never auto-resolved.",
+      "tags": [
+        "persistence",
+        "payment"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-11-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-pay-ledger",
+      "parentId": "z-payment",
+      "title": "Open Ledger",
+      "description": "Every transaction in date order. Append-only.",
+      "text": "Double-entry. Each charge produces two rows: debit customer, credit revenue. Reversals are explicit rows, never deletions.",
+      "tags": [
+        "persistence",
+        "document"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-11-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-pay-customer",
+      "parentId": "z-payment",
+      "title": "Customer Pouch",
+      "description": "An incoming charge with intent attached.",
+      "text": "Stripe Payment Intents under the hood. Customer object holds payment methods, default currency, billing address. We don't store card numbers — that's for the providers.",
+      "tags": [
+        "client",
+        "process",
+        "payment"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-11-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-pay-telegraph",
+      "parentId": "z-payment",
+      "title": "Telegraph",
+      "description": "Wires to the external bank. Settlement messages tap-tap-tapping.",
+      "text": "Daily ACH file at 23:59 UTC. Real-time wire transfers for high-value settlements. Failed wires fall to a manual review queue with a 1h SLO.",
+      "tags": [
+        "gateway",
+        "async"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2024-11-08",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "z-jobqueue",
+      "parentId": null,
+      "title": "Job Queue",
+      "description": "Pneumatic tubes, parcels, dispatcher with steady hands.",
+      "text": "## Context\n\nAsynchronous workload routing across three priority lanes — *realtime*, *default*, and *scheduled*. The dead-letter bin is reviewed every Monday morning, with the on-call engineer paging the owner of the originating service.\n\nThe **dispatcher pattern** was chosen because it isolates back-pressure at the queue boundary, rather than letting it propagate into the consumer fleet. The queue itself becomes the load-shedding mechanism, and consumers stay simple.\n\n### Three lanes\n\n- **Realtime** — sub-100ms SLO, falls back to default if upstream stalls\n- **Default** — best-effort, no SLO, retries up to 3×\n- **Scheduled** — cron-driven, idempotent, runs in off-peak windows\n\n## Architecture\n\n```mermaid\ngraph LR\n  Client[Client] --> Gateway[API Gateway]\n  Gateway --> Queue[(Job Queue)]\n  Queue --> RT[Realtime Pool]\n  Queue --> DF[Default Pool]\n  Queue --> SC[Scheduled Pool]\n  RT --> Cache[(Redis Cache)]\n  DF --> Cache\n  SC --> Cache\n  Cache --> Gateway\n```\n\nThe Redis cache acts as a *coalescing point* — duplicate requests within a 200ms window are deduplicated against in-flight work. Critical because the morning peak (07:00–09:00) tends to amplify retries.\n\n## Failure modes\n\nWhen a consumer fails after three retries, the message is moved to the **DLQ** (dead-letter queue). The DLQ is *not* automatically retried — it requires human inspection because most entries indicate a logic bug, not a transient error.\n\n```mermaid\nsequenceDiagram\n  participant C as Client\n  participant Q as Queue\n  participant W as Worker\n  participant D as DLQ\n  C->>Q: enqueue(job)\n  Q->>W: deliver\n  W-->>Q: nack (attempt 1)\n  Q->>W: redeliver\n  W-->>Q: nack (attempt 2)\n  Q->>W: redeliver\n  W-->>Q: nack (attempt 3)\n  Q->>D: move to DLQ\n```\n\n## Operational notes\n\nUse the `jq-inspect` CLI to introspect the DLQ:\n\n```bash\njq-inspect --queue dlq --since \"2 days ago\" --format json\n```\n\nCommon patterns to watch for:\n\n- **Timeout cascades** — usually upstream Redis pressure\n- **Idempotency violations** — a worker double-processed a scheduled job\n- **Schema drift** — producer/consumer versions out of sync\n\n> If the DLQ depth crosses 500 entries, page the platform team. The runbook lives in the wiki under *Runbooks → Job Queue → DLQ Triage*.\n\n## Open questions\n\n- Should we move the scheduled lane to a separate queue cluster?\n- Is the 200ms coalesce window still right at current traffic?\n- Can we surface DLQ depth on the public status page without leaking internals?",
+      "position": {
+        "x": 0.6186842685822803,
+        "y": 0.02382538008644354
+      },
+      "color": "dust",
+      "domain": "software",
+      "createdAt": "2025-02-04",
+      "sceneAsset": "/scenes/auth-service.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "tags": [
+        "service",
+        "async",
+        "process"
+      ],
+      "people": [],
+      "hotspots": [
+        {
+          "id": "h-jq-dispatcher",
+          "bbox": {
+            "x": 248,
+            "y": 58,
+            "w": 572,
+            "h": 500
+          },
+          "color": "#B8CAD6",
+          "childSceneId": "s-jq-dispatcher"
+        },
+        {
+          "id": "h-jq-tubes",
+          "bbox": {
+            "x": 812,
+            "y": 192,
+            "w": 294,
+            "h": 366
+          },
+          "color": "#A8C4B0",
+          "childSceneId": "s-jq-tubes"
+        },
+        {
+          "id": "h-jq-deadletter",
+          "bbox": {
+            "x": 428,
+            "y": 618,
+            "w": 268,
+            "h": 236
+          },
+          "color": "#C9A363",
+          "childSceneId": "s-jq-deadletter"
+        },
+        {
+          "id": "h-jq-incoming",
+          "bbox": {
+            "x": 62,
+            "y": 262,
+            "w": 152,
+            "h": 232
+          },
+          "color": "#9FB7C9",
+          "childSceneId": "s-jq-incoming"
+        },
+        {
+          "id": "h-jq-clock",
+          "bbox": {
+            "x": 382,
+            "y": 212,
+            "w": 134,
+            "h": 118
+          },
+          "color": "#6B6B6B",
+          "childSceneId": "s-jq-clock"
+        }
+      ],
+      "connectsTo": [
+        {
+          "sceneId": "z-auth",
+          "kind": "calls",
+          "label": "verify tokens"
+        },
+        {
+          "sceneId": "z-payment",
+          "kind": "calls",
+          "label": "scheduled charge"
+        },
+        {
+          "sceneId": "z-notif",
+          "kind": "calls",
+          "label": "deferred email"
+        },
+        {
+          "sceneId": "z-search",
+          "kind": "uses",
+          "label": "indexing pipeline"
+        }
+      ]
+    },
+    {
+      "id": "s-jq-dispatcher",
+      "parentId": "z-jobqueue",
+      "title": "Dispatcher",
+      "description": "Routes parcels by priority lane.",
+      "text": "Calm even under storm. Internally a leader-elected coordinator that pulls from Kafka and pushes to worker pools. Failover < 200ms.",
+      "tags": [
+        "service",
+        "async",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-02-04",
+      "hotspots": [],
+      "connectsTo": [
+        {
+          "sceneId": "s-not-scribe",
+          "kind": "calls",
+          "label": "deferred email"
+        },
+        {
+          "sceneId": "s-pay-clerk",
+          "kind": "calls",
+          "label": "scheduled charge"
+        }
+      ]
+    },
+    {
+      "id": "s-jq-tubes",
+      "parentId": "z-jobqueue",
+      "title": "Pneumatic Tubes",
+      "description": "Brass terminals labeled with worker pools.",
+      "text": "Whoosh on every send. Each pool autoscales independently between 2 and 50 workers based on queue depth. Cold start ~3s on a new pod.",
+      "tags": [
+        "async",
+        "tool"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-02-04",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-jq-deadletter",
+      "parentId": "z-jobqueue",
+      "title": "Dead Letter Bin",
+      "description": "Failed parcels in red lacquer. Reviewed every Monday morning.",
+      "text": "Jobs that exhausted retry budget land here. Reviewed manually. ~12% are bug reports waiting to happen, ~85% are transient failures we can retry, the rest are mysteries.",
+      "tags": [
+        "persistence",
+        "process"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-02-04",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-jq-incoming",
+      "parentId": "z-jobqueue",
+      "title": "Incoming Chute",
+      "description": "New jobs arriving from upstream. Marked with sender's seal.",
+      "text": "Kafka topic per sender. Job envelope: id, type, payload, priority, scheduled_at, attempt_count, max_attempts, idempotency_key.",
+      "tags": [
+        "client",
+        "async"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-02-04",
+      "hotspots": [],
+      "connectsTo": []
+    },
+    {
+      "id": "s-jq-clock",
+      "parentId": "z-jobqueue",
+      "title": "Schedule Clock",
+      "description": "The brass clock above the dispatcher.",
+      "text": "Jobs fired at the hour, every hour. The most-fired schedules: hourly cleanup (00 of every hour), daily settlement (23:59 UTC), weekly reports (Monday 06:00 local-tenant).",
+      "tags": [
+        "process",
+        "ritual"
+      ],
+      "people": [],
+      "sceneAsset": "/scenes/img.png",
+      "sceneSize": {
+        "width": 1270,
+        "height": 952
+      },
+      "createdAt": "2025-02-04",
+      "hotspots": [],
+      "connectsTo": []
+    }
+  ]
+}
