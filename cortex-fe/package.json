@@ -1,8 +1,19 @@
 {
-  "name": "cortex",
+  "name": "cortex-atlas",
   "private": true,
-  "version": "0.0.1",
-  "description": "Memory Atlas — illustrated, navigable memory for one human.",
+  "version": "0.1.0",
+  "description": "Cortex Atlas — illustrated, zoomable front-end for a personal knowledge graph.",
+  "license": "Apache-2.0",
+  "author": "Emanuele Ielo <emanueleielo@gmail.com>",
+  "homepage": "https://github.com/emanueleielo/cortex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emanueleielo/cortex.git",
+    "directory": "cortex-fe"
+  },
+  "bugs": {
+    "url": "https://github.com/emanueleielo/cortex/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

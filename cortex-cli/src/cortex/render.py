@@ -10,7 +10,7 @@ import networkx as nx
 
 
 def fmt_node(g: nx.DiGraph, nid: str) -> str:
-    """Render a single node line: `- **id** [confidence · source] — \`path\``."""
+    r"""Render a single node line: `- **id** [confidence · source] — \`path\``."""
     a = g.nodes.get(nid, {})
     conf = a.get("confidence") or "?"
     src = a.get("source") or "?"
